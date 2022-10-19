@@ -4,7 +4,7 @@
     <main>
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 75vh"
+        style="min-height: 66vh"
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
@@ -15,15 +15,23 @@
             class="w-full h-full absolute opacity-50 bg-black"
           ></span>
         </div>
-        <div class="container relative mx-auto">
+        <div class="container relative mx-auto" id="about">
           <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
                 <h1 class="text-white font-semibold text-5xl">
-                  Your Trusted Partner in Japan
+                  Your Trusted Communications Partner in Japan
                 </h1>
-                <p class="mt-4 text-lg text-gray-300">
-                  Japanese Communications Solutions for Overseas Businesses
+                <p class="mt-4 text-lg text-gray-200">
+                  We're a Tokyo-based boutique communications agency
+                  specializing in representing overseas businesses. Our tailored
+                  and innovative PR solutions drive engagement in the Japanese
+                  market. With our wealth of PR experience, deep rooted media
+                  connections, and a one-stop-solution, we go way beyond PR. We
+                  deliver highly polished and professional work across all media
+                  and channels including online and digital. We specialise in
+                  removing the communication gap that often exists when overseas
+                  organizations try to tell their story in Japan.
                 </p>
               </div>
             </div>
@@ -49,7 +57,7 @@
           </svg>
         </div>
       </div>
-      <section class="pb-20 bg-gray-300 -mt-24" id="about">
+      <section class="pb-20 bg-gray-300 -mt-24">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -126,33 +134,76 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap items-center mt-32">
+        </div>
+      </section>
+      <section class="relative py-20" id="services">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <ServicesComponent />
+        </div>
+      </section>
+
+      <section class="pb-20 relative block bg-gray-300" id="references">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-48">
+          <div class="flex flex-wrap items-center mt-16">
             <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-              <div
+              <!-- <div
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
               >
-                <!-- <i class="fas fa-user-friends text-xl"></i> -->
+                
                 <img src="/svg/happybubble.svg" alt="" />
-              </div>
+              </div> -->
               <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                Working with us is a pleasure
+                Find Yourself In Good Company
               </h3>
               <p
-                class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+                class="text-lg font-light leading-relaxed mt-4 mb-2 text-gray-700"
               >
-                Moonlight Wave has the resources, experience, knowledge, and
-                contacts to drive your local engagement in Japan. We specialise
-                in removing the communication gap that often exists when
-                overseas organizations try to tell their story in Japan.
+                Since 2007 we've helped several distinguished brands communicate
+                better in Japan.
               </p>
-              <!-- <p
-                class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
-              >
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
-              </p>
-       -->
+              <div class="lg:flex w-100 justify-evenly">
+                <img src="/clients/aw.png" class="w-3/4 lg:w-1/3" />
+                <img src="/clients/sphero.png" class="w-3/4 lg:w-1/3" />
+                <img src="/clients/softbank.png" class="w-3/4 lg:w-1/3" />
+              </div>
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div
@@ -181,7 +232,7 @@
                   </h4>
                   <p class="text-md font-light mt-2 text-white mb-3">
                     Natsuko Mochizuki is a driven, focused, Marketing & PR
-                    professional with over 25 years’ experience in the industry
+                    professional with over 25 years’ experience in the industry.
                   </p>
                   <a href="/ceo" class="font-bold text-white mt-8">Full Bio</a>
                 </blockquote>
@@ -190,10 +241,10 @@
           </div>
         </div>
       </section>
-      <section class="relative py-20">
+      <section class="relative py-20 bg-gray-800" id="contact">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px"
+          style="height: 90px"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -205,285 +256,31 @@
             y="0"
           >
             <polygon
-              class="text-white fill-current"
+              class="text-gray-800 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
         <div class="container mx-auto px-4">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <img
-                alt="..."
-                class="max-w-full rounded-lg shadow-lg mb-5"
-                src="/img/tokyo2.png"
-              />
-            </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4" id="story">
-              <div class="md:pr-12">
-                <div
-                  class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
-                >
-                  <!-- <i class="fas fa-rocket text-xl"></i> -->
-                  <img src="/svg/steps.svg" alt="" />
-                </div>
-                <h3 class="text-3xl font-semibold">Our story</h3>
-                <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                  Our boutique communications agency was established in 2007. We
-                  are specialists in representing overseas corporations and
-                  organizations in Japan. We deliver tailored and innovative PR
-                  solutions that help drive engagement in the Japanese market.
-                  With our wealth of PR experience in Japan, deep rooted media
-                  connections, and a one-stop-solution, we can support our
-                  clients beyond PR. We deliver highly polished and professional
-                  work across all media and channels in Japan. Our online and
-                  digital capabilities bring flexibility for our clients in a
-                  fast moving and unpredictable world.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="pb-20 relative block bg-gray-900" id="services">
-        <div
-          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              class="text-gray-900 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
-          <div class="flex flex-wrap text-center justify-center">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white pt-5">What We Do</h2>
-              <!-- <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                Put the potentially record low maximum sea ice extent tihs year
-                down to low ice. According to the National Oceanic and
-                Atmospheric Administration, Ted, Scambos.
-              </p> -->
-            </div>
-          </div>
-          <div class="flex flex-wrap mt-12 justify-center">
-            <div class="w-full lg:w-3/12 px-4 text-center">
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <!-- <i class="fas fa-medal text-xl"></i> -->
-                <img src="/svg/megaphone.svg" alt="" />
-              </div>
-              <h6 class="text-xl mt-5 font-semibold text-white">
-                Communications
-              </h6>
-              <p class="mt-2 mb-4 text-gray-500">
-                Unique Japanese communication strategies based on local market
-                insights, and our client’s business strategy. Our thorough
-                planning and execution deliver the high standards required by
-                the Japanese media and businesses we work with.
-              </p>
-            </div>
-            <div class="w-full lg:w-3/12 px-4 text-center">
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <i class="fas fa-poll text-xl"></i>
-              </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">
-                Media Relations
-              </h5>
-              <p class="mt-2 mb-4 text-gray-500">
-                We have strong relationships with professionals across all types
-                of media in Japan. We know who to contact, and we know how to
-                approach them to share our stories.
-              </p>
-            </div>
-            <div class="w-full lg:w-3/12 px-4 text-center">
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <i class="fas fa-lightbulb text-xl"></i>
-              </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Events</h5>
-              <p class="mt-2 mb-4 text-gray-500">
-                We create and deliver impactful PR events – both face to face,
-                and online. These include: press conferences, round tables,
-                one-to-one interviews, and briefing sessions. Our events drive
-                original news creation and deeper community development.
-              </p>
-            </div>
-            <div class="w-full lg:w-3/12 px-4 text-center">
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <i class="fas fa-lightbulb text-xl"></i>
-              </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">
-                Start-up Support
-              </h5>
-              <p class="mt-2 mb-4 text-gray-500">
-                For start-ups entering the Japanese market, we can support with
-                marketing, branding and other communication needs to enable you
-                to quickly increase awareness and credibility. For Japanese
-                startups, we provide special assistance for global expansion,
-                with the opportunity to team up with our global partners in
-                various areas. Please contact us for more details.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-wrap mt-12 justify-center">
-            <div class="w-full lg:w-3/12 px-4 text-center">
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <i class="fas fa-medal text-xl"></i>
-              </div>
-              <h6 class="text-xl mt-5 font-semibold text-white">
-                Social Media
-              </h6>
-              <p class="mt-2 mb-4 text-gray-500">
-                We use international and Japanese social media tools to share
-                stories and localized client news, developing brand engagement
-                and growing a local Japanese fan platform.
-              </p>
-            </div>
-            <div class="w-full lg:w-3/12 px-4 text-center">
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <i class="fas fa-poll text-xl"></i>
-              </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">
-                Community Relations
-              </h5>
-              <p class="mt-2 mb-4 text-gray-500">
-                We have strong working relationships with many local
-                communities. We believe in diversity, inclusiveness, supporting
-                others, and working together to help society.
-              </p>
-            </div>
-            <div class="w-full lg:w-3/12 px-4 text-center">
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <i class="fas fa-lightbulb text-xl"></i>
-              </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">
-                Localization
-              </h5>
-              <p class="mt-2 mb-4 text-gray-500">
-                Japan can be surprisingly localized. Even the language people
-                use every day at work and at home can be localized. We
-                understand this challenge, and the subtle nuances required for
-                smooth friction-free communication in Japan.
-              </p>
-            </div>
-            <div class="w-full lg:w-3/12 px-4 text-center">
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <i class="fas fa-lightbulb text-xl"></i>
-              </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Beyond PR</h5>
-              <p class="mt-2 mb-4 text-gray-500 pb-5">
-                Our one-stop-shop helps our clients go ‘Beyond PR’. For example:
-                we can coordinate market research in Japan; we can support
-                overseas marketing teams with local activities; we can source
-                Japanese information for foreign media; and we can source local
-                subject matter experts and deliver highly bespoke solutions to
-                meet unique client needs.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="relative block py-24 lg:pt-0 bg-gray-900" id="contact">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-            <div class="w-full lg:w-6/12 px-4">
-              <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
-              >
-                <div class="flex-auto p-5 lg:p-10">
-                  <h4 class="text-2xl font-semibold">Want to work with us?</h4>
-                  <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                    Complete this form and we will get back to you in 24 hours.
-                  </p>
-                  <div class="relative w-full mb-3 mt-8">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="full-name"
-                      >Full Name</label
-                    ><input
-                      type="text"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Full Name"
-                      style="transition: all 0.15s ease 0s"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="email"
-                      >Email</label
-                    ><input
-                      type="email"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Email"
-                      style="transition: all 0.15s ease 0s"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="message"
-                      >Message</label
-                    ><textarea
-                      rows="4"
-                      cols="80"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Type a message..."
-                    ></textarea>
-                  </div>
-                  <div class="text-center mt-6">
-                    <button
-                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                      style="transition: all 0.15s ease 0s"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ContactComponent />
         </div>
       </section>
     </main>
-    <footer-component></footer-component>
+    <footer-component />
   </div>
 </template>
 <script>
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
+import ServicesComponent from "../components/Services.vue";
+import ContactComponent from "../components/ContactFull.vue";
 export default {
   name: "landing-page",
   components: {
     NavbarComponent,
     FooterComponent,
+    ServicesComponent,
+    ContactComponent,
   },
 };
 </script>

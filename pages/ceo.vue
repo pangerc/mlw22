@@ -5,7 +5,7 @@
       <section class="relative block" style="height: 500px">
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style="background-image: url('/img/natsuko4.png')"
+          style="background-image: url('/img/top_ppl.jpg')"
         >
           <span
             id="blackOverlay"
@@ -93,14 +93,14 @@
                 >
                   Natsuko Mochizuki
                 </h3>
-                <div
+                <!-- <div
                   class="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase"
                 >
                   <i
                     class="fas fa-map-marker-alt mr-2 text-lg text-gray-500"
                   ></i>
                   Tokyo, Japan
-                </div>
+                </div> -->
                 <div class="mb-2 text-gray-700 mt-2">
                   <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
                   CEO and Founder

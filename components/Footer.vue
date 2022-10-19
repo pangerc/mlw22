@@ -1,8 +1,8 @@
 <template>
-  <footer class="relative bg-gray-300 pt-8 pb-6">
+  <footer class="relative bg-white pt-8 pb-6">
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-      style="height: 80px"
+      style="height: 90px"
     >
       <svg
         class="absolute bottom-0 overflow-hidden"
@@ -14,7 +14,7 @@
         y="0"
       >
         <polygon
-          class="text-gray-300 fill-current"
+          class="text-white fill-current"
           points="2560 0 2560 100 0 100"
         ></polygon>
       </svg>
@@ -31,42 +31,23 @@
         </div>
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">
-            <!-- <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                >Useful Links</span
+                >Address</span
               >
               <ul class="list-unstyled">
+                <li>2-10-34 Kamiosaki Shinagawa-ku</li>
+                <li>Tokyo 141-0021 Japan</li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/presentation"
-                    >About Us</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://blog.creative-tim.com"
-                    >Blog</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.github.com/creativetimofficial"
-                    >Github</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/bootstrap-themes/free"
-                    >Free Products</a
+                    href="mailto:info@moonlightwave.com"
+                    >info@moonlightwave.com</a
                   >
                 </li>
               </ul>
-            </div> -->
+            </div>
             <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
@@ -92,13 +73,13 @@
           </div>
         </div>
       </div>
-      <hr class="my-6 border-gray-400" />
+      <!-- <hr class="my-6 border-gray-400" /> -->
       <div
         class="flex flex-wrap items-center md:justify-between justify-center"
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{ date }} Moonlightwave Corporation.
+            Copyright © {{ date }} Moonlight Wave.
           </div>
         </div>
       </div>
