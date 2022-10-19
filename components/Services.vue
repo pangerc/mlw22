@@ -24,7 +24,7 @@
       <div
         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
       >
-        <i class="fas fa-poll text-xl"></i>
+        <img src="/svg/tv.svg" alt="" />
       </div>
       <h5 class="text-xl mt-5 font-semibold text-gray-600">Media Relations</h5>
       <p class="mt-2 mb-4 text-gray-500">
@@ -37,7 +37,7 @@
       <div
         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
       >
-        <i class="fas fa-lightbulb text-xl"></i>
+        <img src="/svg/drinks.svg" alt="Events" />
       </div>
       <h5 class="text-xl mt-5 font-semibold text-gray-600">Events</h5>
       <p class="mt-2 mb-4 text-gray-500">
@@ -51,7 +51,7 @@
       <div
         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
       >
-        <i class="fas fa-lightbulb text-xl"></i>
+        <img src="/svg/startup.svg" alt="Startup" />
       </div>
       <h5 class="text-xl mt-5 font-semibold text-gray-600">Start-up Support</h5>
       <p class="mt-2 mb-4 text-gray-500">
@@ -69,7 +69,7 @@
       <div
         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
       >
-        <i class="fas fa-medal text-xl"></i>
+        <img src="/svg/like.svg" alt="Social Media" />
       </div>
       <h6 class="text-xl mt-5 font-semibold text-gray-600">Social Media</h6>
       <p class="mt-2 mb-4 text-gray-500">
@@ -82,7 +82,7 @@
       <div
         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
       >
-        <i class="fas fa-poll text-xl"></i>
+        <img src="/svg/flower.svg" alt="Community" />
       </div>
       <h5 class="text-xl mt-5 font-semibold text-gray-600">
         Community Relations
@@ -97,7 +97,7 @@
       <div
         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
       >
-        <i class="fas fa-lightbulb text-xl"></i>
+        <img src="/svg/kawaii.svg" alt="Localisation" />
       </div>
       <h5 class="text-xl mt-5 font-semibold text-gray-600">Localization</h5>
       <p class="mt-2 mb-4 text-gray-500">
@@ -111,7 +111,7 @@
       <div
         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
       >
-        <i class="fas fa-lightbulb text-xl"></i>
+        <img src="/svg/msearch.svg" alt="Beyond" />
       </div>
       <h5 class="text-xl mt-5 font-semibold text-gray-600">Beyond PR</h5>
       <p class="mt-2 mb-4 text-gray-500 pb-5">
