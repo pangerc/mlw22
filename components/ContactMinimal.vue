@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+    <h4 class="text-2xl font-semibold">Contact Us</h4>
     <p class="leading-relaxed mt-1 mb-4 text-gray-600">
       Please complete this form and we will get back to you.
     </p>
@@ -40,7 +40,7 @@
         placeholder="Type a message..."
       ></textarea>
     </div>
-    <div class="text-center mt-6">
+    <div class="text-center mt-6 mb-6">
       <button
         class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
         type="button"

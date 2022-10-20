@@ -21,17 +21,17 @@
     </div>
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
-        <div class="w-full lg:w-6/12 px-4">
+        <div class="w-full lg:w-6/12 px-4 flex flex-col justify-center">
           <h4 class="text-3xl font-semibold">
-            Moonlight Wave. Your Trusted Partner in Japan
+            Your Trusted Communications Partner in Japan.
           </h4>
-          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+          <!-- <h5 class="text-lg mt-0 mb-2 text-gray-700">
             Japanese Communications Solutions for Overseas Businesses
-          </h5>
+          </h5> -->
         </div>
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">
-            <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <div class="w-full lg:w-6/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
                 >Address</span

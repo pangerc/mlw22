@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
+    class="top-0 z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
   >
     <div
       class="container px-4 mx-auto flex flex-wrap items-center justify-between"
@@ -10,7 +10,7 @@
       >
         <a href="/">
           <img
-            src="/img/mlw_wht.png"
+            src="/img/mlw_blk.png"
             alt="Moonlightwave Logo"
             class="w-72"
           /> </a
@@ -20,7 +20,7 @@
           v-on:click="toggleNavbar()"
         >
           <!-- <i class="text-white fas fa-bars"></i> -->
-          <img src="/svg/menu.svg" alt="Menu" class="w-4" />
+          <img src="/svg/menu_blk.svg" alt="Menu" class="w-4" />
         </button>
       </div>
       <div
@@ -32,7 +32,7 @@
         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
           <li class="flex items-center">
             <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              class="lg:text-black lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="/#about"
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
@@ -43,7 +43,7 @@
 
           <li class="flex items-center">
             <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              class="lg:text-black lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="/#services"
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
@@ -53,7 +53,7 @@
           </li>
           <li class="flex items-center">
             <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              class="lg:text-black lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="/ceo"
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
@@ -63,7 +63,7 @@
           </li>
           <li class="flex items-center">
             <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              class="lg:text-black lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="/#contact"
               ><i
                 class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
