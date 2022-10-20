@@ -190,7 +190,8 @@
                 
                 <img src="/svg/happybubble.svg" alt="" />
               </div> -->
-              <h3 class="text-3xl mb-2 font-semibold leading-normal">
+              <ContactComponent />
+              <!-- <h3 class="text-3xl mb-2 font-semibold leading-normal">
                 Find Yourself In Good Company
               </h3>
               <p
@@ -203,7 +204,7 @@
                 <img src="/clients/aw.png" class="w-3/4 lg:w-1/3" />
                 <img src="/clients/sphero.png" class="w-3/4 lg:w-1/3" />
                 <img src="/clients/softbank.png" class="w-3/4 lg:w-1/3" />
-              </div>
+              </div> -->
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div
@@ -241,7 +242,7 @@
           </div>
         </div>
       </section>
-      <section class="relative py-20 bg-gray-800" id="contact">
+      <!-- <section class="relative py-20 bg-gray-800" id="contact">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 90px"
@@ -264,7 +265,7 @@
         <div class="container mx-auto px-4">
           <ContactComponent />
         </div>
-      </section>
+      </section> -->
     </main>
     <footer-component />
   </div>
@@ -273,7 +274,7 @@
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
 import ServicesComponent from "../components/Services.vue";
-import ContactComponent from "../components/ContactFull.vue";
+import ContactComponent from "../components/ContactMinimal.vue";
 export default {
   name: "landing-page",
   components: {

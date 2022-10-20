@@ -48,7 +48,7 @@
                 </li>
               </ul>
             </div>
-            <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <!-- <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
                 >Collaborations</span
@@ -69,7 +69,7 @@
                   >
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

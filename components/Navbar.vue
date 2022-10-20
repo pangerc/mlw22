@@ -19,7 +19,8 @@
           type="button"
           v-on:click="toggleNavbar()"
         >
-          <i class="text-white fas fa-bars"></i>
+          <!-- <i class="text-white fas fa-bars"></i> -->
+          <img src="/svg/menu.svg" alt="Menu" class="w-4" />
         </button>
       </div>
       <div
