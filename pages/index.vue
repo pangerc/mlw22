@@ -163,7 +163,7 @@
         </div>
       </section>
 
-      <section class="pb-20 relative block bg-blue-100" id="references">
+      <section class="pb-20 relative block bg-gray-200" id="references">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px"
@@ -178,7 +178,7 @@
             y="0"
           >
             <polygon
-              class="text-blue-100 fill-current"
+              class="text-gray-200 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
