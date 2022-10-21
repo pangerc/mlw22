@@ -41,7 +41,7 @@
                 <li>Tokyo 141-0021 Japan</li>
                 <li>
                   <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    class="text-pink-600 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     href="mailto:info@moonlightwave.com"
                     >info@moonlightwave.com</a
                   >

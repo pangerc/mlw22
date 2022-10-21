@@ -163,7 +163,7 @@
         </div>
       </section>
 
-      <section class="pb-20 relative block bg-gray-200" id="references">
+      <section class="pb-20 relative block bg-gray-200" id="contact">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px"
