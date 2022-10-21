@@ -30,14 +30,14 @@
             y="0"
           >
             <polygon
-              class="text-gray-300 fill-current"
+              class="text-yellow-300 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
       </div>
 
-      <section class="pb-20 bg-gray-300">
+      <section class="pb-20 bg-yellow-300">
         <div class="container relative mx-auto pt-12" id="about">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
@@ -64,7 +64,7 @@
           <div class="flex flex-wrap">
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col min-w-0 break-words bg-yellow-100 w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -88,7 +88,7 @@
             </div>
             <div class="w-full md:w-4/12 px-4 text-center">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col min-w-0 break-words bg-yellow-100 w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -112,7 +112,7 @@
             </div>
             <div class="pt-6 w-full md:w-4/12 px-4 text-center">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col min-w-0 break-words bg-yellow-100 w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -163,7 +163,7 @@
         </div>
       </section>
 
-      <section class="pb-20 relative block bg-gray-300" id="references">
+      <section class="pb-20 relative block bg-blue-100" id="references">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px"
@@ -178,7 +178,7 @@
             y="0"
           >
             <polygon
-              class="text-gray-300 fill-current"
+              class="text-blue-100 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
