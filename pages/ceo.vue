@@ -103,7 +103,7 @@
                 </div> -->
                 <div class="mb-2 text-gray-700 mt-2">
                   <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
-                  CEO and Founder
+                  Founder and CEO
                 </div>
               </div>
               <div class="mt-10 py-10 border-t border-gray-300 text-center">

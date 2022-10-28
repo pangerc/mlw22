@@ -30,22 +30,22 @@
             y="0"
           >
             <polygon
-              class="text-yellow-300 fill-current"
+              class="text-gray-200 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
       </div>
 
-      <section class="pb-20 bg-yellow-300">
+      <section class="pb-20 bg-gray-200">
         <div class="container relative mx-auto pt-12" id="about">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
-                <h1 class="text-black font-semibold text-5xl">
+                <h1 class="text-black font-semibold text-3xl lg:text-5xl">
                   Your Trusted Communications Partner in Japan
                 </h1>
-                <p class="mt-4 text-lg text-gray-800">
+                <p class="mt-4 lg:text-lg text-gray-800">
                   We're a Tokyo-based boutique communications agency
                   specializing in representing overseas businesses. Our tailored
                   and innovative PR solutions drive engagement in the Japanese
@@ -56,15 +56,16 @@
                   removing the communication gap that often exists when overseas
                   organizations try to tell their story in Japan.
                 </p>
+                <!-- <h3 class="pt-6 font-bold text-xl">Our Strengths</h3> -->
               </div>
             </div>
           </div>
         </div>
-        <div class="container mx-auto px-4 mt-12">
+        <div class="container mx-auto px-4 mt-10">
           <div class="flex flex-wrap">
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-yellow-100 w-full mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -73,22 +74,23 @@
                     <!-- <i class="fas fa-award"></i> -->
                     <img src="/svg/pie.svg" alt="" />
                   </div>
+
                   <h6 class="text-xl font-semibold">Business Focus</h6>
+                  <small class="text-xs">STRENGTH</small>
                   <p class="mt-2 mb-4 text-gray-600">
                     We listen and learn, to fully understand our client’s
                     business strategy. We deliver solutions directly aligned to
                     our client’s strategy and vision. We work with clients from
-                    a wide range of business sectors, such as: technology
-                    (start-ups, AI, robotics, e-commerce, social media);
-                    manufacturers; retailers; healthcare; beauty;
-                    pharmaceutical; and not-for-profit organizations (NPOs).
+                    a wide range of business sectors, such as technology,
+                    manufacturers, retailers, healthcare, beauty, pharmaceutical
+                    and not-for-profit organizations.
                   </p>
                 </div>
               </div>
             </div>
             <div class="w-full md:w-4/12 px-4 text-center">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-yellow-100 w-full mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -100,6 +102,7 @@
                   <h6 class="text-xl font-semibold">
                     Expert Skills & Resources
                   </h6>
+                  <small class="text-xs">STRENGTH</small>
                   <p class="mt-2 mb-4 text-gray-600">
                     Our in-house team are all experienced PR and communications
                     professionals. Our robust network of specialists is on call
@@ -112,7 +115,7 @@
             </div>
             <div class="pt-6 w-full md:w-4/12 px-4 text-center">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-yellow-100 w-full mb-8 shadow-lg rounded-lg"
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
@@ -124,6 +127,7 @@
                   <h6 class="text-xl font-semibold">
                     Japanese Market Knowledge
                   </h6>
+                  <small class="text-xs">STRENGTH</small>
                   <p class="mt-2 mb-4 text-gray-600">
                     Japan is our native market. We are a Japanese business, and
                     understand the Japanese business ecosystem. We have an
